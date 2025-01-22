@@ -3,7 +3,6 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 
-export default App
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Navigation from './Navigation';
 import AboutMe from './AboutMe';
