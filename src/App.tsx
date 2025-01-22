@@ -3,7 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 
-
+import { NavLink } from 'react-router-dom';
 import Navigation from './components/navigation.tsx';
 import AboutMe from './components/AboutMe.tsx';
 import Portfolio from './components/portfolio.tsx';
