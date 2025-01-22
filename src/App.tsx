@@ -3,6 +3,14 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 
+export default App
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import Navigation from './Navigation';
+import AboutMe from './AboutMe';
+import Portfolio from './Portfolio';
+import Contact from './Contact';
+import Resume from './Resume';
+
 function App() {
   const [count, setCount] = useState(0)
 
@@ -30,6 +38,30 @@ function App() {
       </p>
     </>
   )
+
+return (
+  <div>
+      <Header />
+      <Content />
+      <Footer />
+    </div>
+);
 }
 
-export default App
+const App = () => {
+  return (
+      <Router>
+          <div>
+              <Navigation />
+              <Switch>
+                  <Route path="/" exact component={AboutMe} />
+                  <Route path="/portfolio" component={Portfolio} />
+                  <Route path="/contact" component={Contact} />
+                  <Route path="/resume" component={Resume} />
+              </Switch>
+          </div>
+      </Router>
+  );
+};
+
+export default App;
