@@ -4,11 +4,11 @@ import viteLogo from '/vite.svg'
 import './App.css'
 
 
-import Navigation from './Navigation';
-import AboutMe from './AboutMe';
-import Portfolio from './Portfolio';
-import Contact from './Contact';
-import Resume from './Resume';
+import Navigation from './components/navigation.tsx';
+import AboutMe from './components/AboutMe.tsx';
+import Portfolio from './components/portfolio.tsx';
+import Contact from './components/contact.tsx';
+import Resume from './components/resume.tsx';
 
 function App() {
   const [count, setCount] = useState(0)
