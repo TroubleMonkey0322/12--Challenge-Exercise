@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-const Navigation = () => {
+const Navigation: React.FC = () => {
     return (
         <nav>
             <ul>
