@@ -47,7 +47,7 @@ return (
 );
 }
 
-const App = () => {
+const App: React.FC = () => {
   return (
       <Router>
           <div>

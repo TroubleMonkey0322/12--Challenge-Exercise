@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-const Portfolio = () => {
+const Portfolio: React.FC = () => {
     return (
         <section>
             <h2>Portfolio</h2>

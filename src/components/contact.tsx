@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 
 
-const Contact = () => {   
+const Contact: React.FC = () => {   
 
   const [formData, setFormData] = useState({
     name: '',

@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-const Resume = () => {
+const Resume: React.FC = () => {
     const proficiencies = [
         'JavaScript',
         'React',

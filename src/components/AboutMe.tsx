@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-const AboutMe = () => {
+const AboutMe: React.FC = () => {
     return (
         <section>
    
